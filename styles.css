@@ -1,0 +1,71 @@
+@import url("https://fonts.google.com/specimen/Figtree");
+body {
+    background-color: #F5D04E;
+    
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    filter: drop-shadow(8px 8px #000000);
+
+}
+
+@media (max-width:375px) {
+    .card {
+        width: 15rem;
+        height: auto;
+    }
+}
+
+.blog-title:hover {
+    color: #F5D04E;
+    cursor: pointer;
+}
+
+.blog_img {
+    border-radius: 1rem;
+
+}
+
+.category_wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+}
+
+.category {
+    background-color: #F5D04E;
+    padding: .5rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    width: 4rem;
+    border-radius: 8px;
+}
+
+.poster_wrap {
+    margin-top: 1rem;
+}
+
+.author_pic {
+    width: 32px;
+    height: 32px;
+
+}
